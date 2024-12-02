@@ -1,3 +1,13 @@
+/*
+* File: app.java
+* Author: Sallai András
+* Copyright: 2024, Sallai András
+* Group: szit.hu
+* Date: 2024-12-02
+* Github: https://github.com/oktat/tesugarbeet/
+* Licenc: MIT
+*/
+
 import {calcTotal} from './tools.js'
 
 const doc = {
