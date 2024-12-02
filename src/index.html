@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répa</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cukor répa beszállítás</h1>
+      <div class="beetForm">
+        <div class="form-group">
+          <label for="transport1">Beszállítás 1</label>
+          <input type="text" class="form-control" 
+          id="transport1" placeholder="mennyiség (tonna)">
+        </div>
+        <div class="form-group">
+          <label for="transport2">Beszállítás 2</label>
+          <input type="text" class="form-control" 
+          id="transport2" placeholder="mennyiség (tonna)">
+        </div>
+        <div class="form-group">
+          <label for="transport3">Beszállítás 3</label>
+          <input type="text" class="form-control" 
+          id="transport3" placeholder="mennyiség (tonna)">
+        </div>
+        <div>
+          <button
+          class="btn btn-primary m-2"
+          id="calcButton">Összegzés</button>
+        </div>
+        <div class="input-group">
+
+          
+          <span class="input-group-text">Összes</span>
+          
+          <input type="text" class="form-control" 
+          id="total" readonly>
+          
+          <span class="input-group-text">t</span>
+          
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
